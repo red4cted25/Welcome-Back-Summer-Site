@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    header {
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1vh 2vw;
+        height: 8vh;
+        #nav-logo {
+            color: white;
+            font-size: 3vw;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        #navbar-links {
+            display: flex;
+            a {
+                color: white;
+                text-decoration: none;
+                padding: 0 1.5vw;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    #intro {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+    }
+    #intro-content {
+        text-align: center;
+        color: white;
+    }
+}

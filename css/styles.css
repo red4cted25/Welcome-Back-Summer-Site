@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+body header {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vh 2vw;
+  height: 8vh;
+}
+body header #nav-logo {
+  color: white;
+  font-size: 3vw;
+  font-weight: bold;
+  text-decoration: none;
+}
+body header #navbar-links {
+  display: flex;
+}
+body header #navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0 1.5vw;
+}
+body header #navbar-links a:hover {
+  text-decoration: underline;
+}
+body #intro {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+}
+body #intro-content {
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

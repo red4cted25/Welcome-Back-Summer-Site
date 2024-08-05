@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Back! Summer Site</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" id="nav-logo">Your Name</a>
+            <div id="navbar-links">
+                <a href="#">About</a>
+                <a href="#">Gallery</a>
+                <a href="#">Activities</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <div id="intro">
+        <div id="intro-content">
+            <h1>Welcome Back!</h1>
+            <h6>Summer Break, I Believe In You</h6>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+    <script>
+        VANTA.HALO({
+            el: "#intro",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00
+        })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+</body>
+</html>
