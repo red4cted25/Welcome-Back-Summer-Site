@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Back! Summer Site</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/lightbox.css">
 </head>
 <body>
     <!-- Header Section -->
@@ -52,8 +53,85 @@
         <h2>What <em>is</em> this?</h2>
         <p>This project is designed to help students shake off the mental rust and apply their skills in HTML, CSS, JavaScript, and/or jQuery while showcasing what I've done this last summer! I was inspired from ... </p>
     </section>
-
-    <script src="/js/main.js"></script>
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="row">
+            <div class="column">
+                <a href="" data-lightbox="models" data-title=""><img src="" alt=""></a>
+                <a href="" data-lightbox="models" data-title=""><img src="" alt=""></a>
+                <a href="" data-lightbox="models" data-title=""><img src="" alt=""></a>
+            </div>
+            <div class="column">
+                <a href="" data-lightbox="models" data-title=""><img src="" alt=""></a>
+                <a href="" data-lightbox="models" data-title=""><img src="" alt=""></a>
+                <a href="" data-lightbox="models" data-title=""><img src="" alt=""></a>
+            </div>
+            <div class="column">
+                <a href="" data-lightbox="models" data-title=""><img src="" alt=""></a>
+                <a href="" data-lightbox="models" data-title=""><img src="" alt=""></a>
+                <a href="" data-lightbox="models" data-title=""><img src="" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <!-- Activities -->
+    <section id="activities">
+        <div class="flexy">
+            <!-- Card 1 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="lightbox-plus-jquery.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
