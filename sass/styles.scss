@@ -15,6 +15,7 @@ body {
         transition: background-color 0.3s ease;
         position: sticky;
         top: 0;
+        z-index: 9999;
         // Name Logo
         #nav-logo {
             color: white;
@@ -92,14 +93,19 @@ body {
 }
 
 // Gallery styling
+
+#gallery {
+    height: 30vh;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
     margin: 0 4px;
     max-width: 75vw;
     position: relative;
-    top: 0;
-    left: 20%;
+        top: 0;
+        left: 20%;
 }
 
 .column {
@@ -111,7 +117,7 @@ body {
         margin-top: 8px;
         vertical-align: middle;
         width: 100%;
-        height: 30%;
+        height: 17%;
     }
 }
 

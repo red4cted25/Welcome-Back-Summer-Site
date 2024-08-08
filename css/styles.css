@@ -17,6 +17,7 @@ body header {
   transition: background-color 0.3s ease;
   position: sticky;
   top: 0;
+  z-index: 9999;
 }
 body header #nav-logo {
   color: white;
@@ -86,6 +87,10 @@ body header nav #navbar-links a:hover::after, body header nav #navbar-links a:fo
   padding-left: 0.5vw;
 }
 
+#gallery {
+  height: 30vh;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -107,7 +112,7 @@ body header nav #navbar-links a:hover::after, body header nav #navbar-links a:fo
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-  height: 30%;
+  height: 17%;
 }
 
 #activities {
