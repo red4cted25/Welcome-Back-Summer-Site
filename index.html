@@ -22,29 +22,15 @@
     </header>
     <!-- Intro Section -->
     <section id="home">
-        <!-- FOR FUTURE USE -->
-        <!-- Possible parallax start -->
-        <!-- <div class="parallax-container">
-            <div class="parallax-layer bg-mountains">
-                <img src="bg-mountains.jpg" alt="Background Mountains">
-            </div>
-            <div class="parallax-layer sun">
-                <img src="sun.png" alt="Sun">
-            </div>
-            <div class="parallax-layer fg-mountains">
-                <img src="fg-mountains.png" alt="Foreground Mountains">
-            </div>
-            <div class="parallax-layer content">
-                <h1>SUMMER BREAK</h1>
-                <div class="text">
-                    <p>Welcome Back!</p>
-                </div>
-            </div>
-        </div> -->
-
-        <div id="home-content">
+        <!-- Add surf.png as a bg detail -->
+        <img src="/assets/surfbg.png" alt="Surfboard" id="surfbg">
+        <div id="home-content">    
             <h1>SUMMER BREAK</h1>
             <p>Welcome Back!</p>
+            <div class="palm-tree">
+                <img src="/assets/backgrounds/palm-left.png" alt="Palm Tree 1" class="moving-palm" id="palm1">
+                <img src="/assets/backgrounds/palm-right.png" alt="Palm Tree 2" class="moving-palm" id="palm2">
+            </div>
         </div>
     </section>
     <!-- About the Project -->
@@ -55,21 +41,24 @@
     </section>
     <!-- Gallery -->
     <section id="gallery">
-        <div class="row">
-            <div class="column">
-                <a href="/assets/reverse.jpg" data-lightbox="models" data-title="Noelle, Ava, and Daniel in my reverse cam after an outing at Daily Drip Coffee"><img src="/assets/reverse.jpg" alt="Noelle, Ava, and Daniel in my reverse cam after an outing at Daily Drip Coffee"></a>
-                <a href="/assets/minions.jpg" data-lightbox="models" data-title="The group going out to see Despicable Me 4"><img src="/assets/minions.jpg" alt="The group going out to see Despicable Me 4"></a>
-                <a href="/assets/froyo.jpg" data-lightbox="models" data-title="Some froyo with Ava, Noelle, Alan, and Daniel"><img src="/assets/froyo.jpg" alt="Some froyo with Ava, Noelle, Alan, and Daniel"></a>
-            </div>
-            <div class="column">
-                <a href="/assets/filmcrew.jpg" data-lightbox="models" data-title="Daniel, Noelle, Ava and I went thrifting, and Daniel found a new inappropriate shirt to pose with"><img src="/assets/filmcrew.jpg" alt="Daniel, Noelle, Ava and I went thrifting, and Daniel found a new inappropriate shirt to pose with"></a>
-                <a href="/assets/noellelady.jpg" data-lightbox="models" data-title="Noelle admiring some cups resembling women at the World Market"><img src="/assets/noellelady.jpg" alt="Noelle admiring some cups resembling women at the World Market"></a>
-                <a href="/assets/cage.jpg" data-lightbox="models" data-title="Noelle, Sabrina, and Daniel after the Cage the Elephant concert at the Talking Stick Amphitheatre"><img src="/assets/cage.jpg" alt="Noelle, Sabrina, and Daniel after the Cage the Elephant concert at the Talking Stick Amphitheatre"></a>
-            </div>
-            <div class="column">
-                <a href="/assets/baseball.jpg" data-lightbox="models" data-title="I surprised my Dad with a baseball game, and we had tons of fun!"><img src="/assets/baseball.jpg" alt="I surprised my Dad with a baseball game, and we had tons of fun!"></a>
-                <a href="/assets/butterfly.jpg" data-lightbox="models" data-title="My parents and I went to the Butterfly Wonderland at Boardwalk Arizona and got this cute picture!"><img src="/assets/butterfly.jpg" alt="My parents and I went to the Butterfly Wonderland at Boardwalk Arizona and got this cute picture!"></a>
-                <a href="/assets/mom.jpg" data-lightbox="models" data-title="A butterfly landed on my mom!"><img src="/assets/mom.jpg" alt="A butterfly landed on my mom!"></a>
+        <!-- Turn this into a corkboard with clickable images!!!!!!! -->
+        <div id="container">
+            <div class="row">
+                <div class="column">
+                    <a href="/assets/reverse.jpg" data-lightbox="models" data-title="Noelle, Ava, and Daniel in my reverse cam after an outing at Daily Drip Coffee"><img src="/assets/reverse.jpg" alt="Noelle, Ava, and Daniel in my reverse cam after an outing at Daily Drip Coffee"></a>
+                    <a href="/assets/minions.jpg" data-lightbox="models" data-title="The group going out to see Despicable Me 4"><img src="/assets/minions.jpg" alt="The group going out to see Despicable Me 4"></a>
+                    <a href="/assets/froyo.jpg" data-lightbox="models" data-title="Some froyo with Ava, Noelle, Alan, and Daniel"><img src="/assets/froyo.jpg" alt="Some froyo with Ava, Noelle, Alan, and Daniel"></a>
+                </div>
+                <div class="column">
+                    <a href="/assets/filmcrew.jpg" data-lightbox="models" data-title="Daniel, Noelle, Ava and I went thrifting, and Daniel found a new inappropriate shirt to pose with"><img src="/assets/filmcrew.jpg" alt="Daniel, Noelle, Ava and I went thrifting, and Daniel found a new inappropriate shirt to pose with"></a>
+                    <a href="/assets/noellelady.jpg" data-lightbox="models" data-title="Noelle admiring some cups resembling women at the World Market"><img src="/assets/noellelady.jpg" alt="Noelle admiring some cups resembling women at the World Market"></a>
+                    <a href="/assets/cage.jpg" data-lightbox="models" data-title="Noelle, Sabrina, and Daniel after the Cage the Elephant concert at the Talking Stick Amphitheatre"><img src="/assets/cage.jpg" alt="Noelle, Sabrina, and Daniel after the Cage the Elephant concert at the Talking Stick Amphitheatre"></a>
+                </div>
+                <div class="column">
+                    <a href="/assets/baseball.jpg" data-lightbox="models" data-title="I surprised my Dad with a baseball game, and we had tons of fun!"><img src="/assets/baseball.jpg" alt="I surprised my Dad with a baseball game, and we had tons of fun!"></a>
+                    <a href="/assets/butterfly.jpg" data-lightbox="models" data-title="My parents and I went to the Butterfly Wonderland at Boardwalk Arizona and got this cute picture!"><img src="/assets/butterfly.jpg" alt="My parents and I went to the Butterfly Wonderland at Boardwalk Arizona and got this cute picture!"></a>
+                    <a href="/assets/mom.jpg" data-lightbox="models" data-title="A butterfly landed on my mom!"><img src="/assets/mom.jpg" alt="A butterfly landed on my mom!"></a>
+                </div>
             </div>
         </div>
     </section>
