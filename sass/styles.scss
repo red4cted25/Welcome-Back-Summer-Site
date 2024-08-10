@@ -6,6 +6,7 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
     font-family: "Hamston";
+    color: #b68666;
     // Header Setup
     header {
         display: flex;
@@ -193,6 +194,7 @@ body {
     padding: 5vh 0;
     font-size: 1vw;
     text-align: center;
+    background-color: #ffdd7d;
 }
 
 #container {
@@ -238,8 +240,8 @@ body {
 // Activities Styling
 
 #activities {
-    background-color: rgb(255, 165, 0);
-    height: 30vh;
+    background-color: #ffeebc;
+    height: 60vh;
     padding: 5vh 2vw;
     text-align: center;
     font-size: 1vw;
@@ -279,7 +281,7 @@ body {
 }
 
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: rgb(234,155,102);
     color: white;
     font-size: 120%;
     text-align: center;
@@ -299,4 +301,19 @@ body {
         object-fit: cover;
         vertical-align: middle;
     }
+}
+
+// Custom Scrollbar
+html::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #926139;
+}
+
+html::-webkit-scrollbar {
+	width: 8px;
+}
+
+html::-webkit-scrollbar-thumb {
+	background-color: #FBE1BB;
+    border-radius: 10px;
 }
