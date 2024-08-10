@@ -15,10 +15,7 @@ body {
   background-color: rgb(0, 106, 186);
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-family: "Simple Summer";
-  color: #fee7bd;
-  text-shadow: -1px -1px #f2bd60;
-  letter-spacing: 0.25vw;
+  font-family: "Hamston";
 }
 body header {
   display: flex;
@@ -31,6 +28,10 @@ body header {
   position: sticky;
   top: 0;
   z-index: 9999;
+  font-family: "Simple Summer";
+  color: #fee7bd;
+  text-shadow: -1px -1px #f2bd60;
+  letter-spacing: 0.25vw;
 }
 body header #nav-logo {
   color: white;
@@ -76,9 +77,13 @@ body header nav #navbar-links a:hover::after, body header nav #navbar-links a:fo
   justify-content: center;
   align-items: center;
   font-size: 3vw;
-  background-image: url(/assets/backgrounds/summer.jpg);
+  background-image: url("/assets/backgrounds/summer.jpg");
   background-size: cover;
   margin-top: -10vh;
+  font-family: "Simple Summer";
+  color: #fee7bd;
+  text-shadow: -1px -1px #f2bd60;
+  letter-spacing: 0.25vw;
 }
 
 #surfbg {
@@ -129,7 +134,7 @@ body header nav #navbar-links a:hover::after, body header nav #navbar-links a:fo
 }
 
 #about {
-  background-color: rgb(97, 0, 35);
+  background-color: rgb(234, 155, 102);
   height: 40vh;
   padding: 5vh 2vw;
 }
@@ -142,6 +147,23 @@ body header nav #navbar-links a:hover::after, body header nav #navbar-links a:fo
   font-size: 1.5vw;
   padding-left: 0.5vw;
 }
+#about .image-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about .image-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#about .image-slide #image-slide-2 {
+  opacity: 0;
+}
 
 #gallery {
   height: 60vh;
@@ -150,7 +172,7 @@ body header nav #navbar-links a:hover::after, body header nav #navbar-links a:fo
 #container {
   width: 80%;
   max-width: 90vw;
-  background-image: url("/assets/corkboard.jpg");
+  background-image: url("./assets/corkboard.jpg");
   background-size: cover;
   background-position: center;
   padding: 5vh;
@@ -166,7 +188,7 @@ body header nav #navbar-links a:hover::after, body header nav #navbar-links a:fo
   position: relative;
   top: 0;
   left: 30%;
-  background-image: url(/assets/corkboard.jpg);
+  background-image: url(./assets/corkboard.jpg);
   background-size: cover;
 }
 

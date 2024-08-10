@@ -12,3 +12,10 @@
     font-family: "Simple Summer";
     src: url(/assets/fonts/Simple\ Summer.otf) format("opentype");
 }
+
+@mixin summerFont {
+    font-family: "Simple Summer";
+    color: #fee7bd;
+    text-shadow: -1px -1px #f2bd60;
+    letter-spacing: .25vw;
+}
