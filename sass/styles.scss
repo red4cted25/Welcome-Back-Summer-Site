@@ -73,7 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 3vw;
-    background-image: url('./assets/backgrounds/summer.jpg');
+    background-image: url('../assets/backgrounds/summer.jpg');
     background-size: cover;
     margin-top: -10vh;
     @include summerFont;
@@ -311,7 +311,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('./assets/beach.jpg');
+    background-image: url('../assets/beach.jpg');
     background-size: cover;
     h2 {
         margin: 3vh 0 1vh 0;

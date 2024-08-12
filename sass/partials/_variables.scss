@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Hamston";
-    src: url(./assets/fonts/Hamston.ttf) format("truetype");
+    src: url('../assets/fonts/Hamston.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "Simple Summer";
-    src: url(./assets/fonts/Simple\ Summer.otf) format("opentype");
+    src: url('../assets/fonts/Simple\ Summer.otf') format("opentype");
 }
 
 @mixin summerFont {
