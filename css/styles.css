@@ -1,14 +1,10 @@
 @font-face {
-  font-family: "Nerve";
-  src: url(/assets/fonts/NerveBrushRegular.otf) format("opentype");
-}
-@font-face {
   font-family: "Hamston";
-  src: url(/assets/fonts/Hamston.ttf) format("truetype");
+  src: url(./assets/fonts/Hamston.ttf) format("truetype");
 }
 @font-face {
   font-family: "Simple Summer";
-  src: url(/assets/fonts/Simple\ Summer.otf) format("opentype");
+  src: url(./assets/fonts/Simple\ Summer.otf) format("opentype");
 }
 body {
   margin: 0;
@@ -81,7 +77,7 @@ body h2 {
   justify-content: center;
   align-items: center;
   font-size: 3vw;
-  background-image: url("/assets/backgrounds/summer.jpg");
+  background-image: url("./assets/backgrounds/summer.jpg");
   background-size: cover;
   margin-top: -10vh;
   font-family: "Simple Summer";
@@ -220,7 +216,7 @@ body h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/assets/corkboard.jpg");
+  background-image: url("./assets/corkboard.jpg");
   background-size: contain;
   background-position: center;
   padding: 3vh;
@@ -323,7 +319,7 @@ body h2 {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url(/assets/beach.jpg);
+  background-image: url("./assets/beach.jpg");
   background-size: cover;
 }
 #contact h2 {
