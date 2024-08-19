@@ -322,7 +322,7 @@ body {
     margin: 5vh auto;
     padding: 1vh;
     width: 50vw;  
-    height: 50vh; 
+    height: 55vh; 
     background: rgba(255, 255, 255, 0.2); 
     backdrop-filter: blur(10px); 
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
@@ -350,6 +350,11 @@ body {
         border-radius: 5px;
         font-size: 1vw;
         background-color: #ffeebc;
+    }
+    textarea {
+        resize: none;
+        height: 10vh;
+        overflow-y: scroll;
     }
     button {
         padding: 1vh 1vw;
