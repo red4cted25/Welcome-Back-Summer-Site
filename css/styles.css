@@ -216,7 +216,7 @@ body h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./assets/corkboard.jpg");
+  background-image: url("../assets/corkboard.jpg");
   background-size: contain;
   background-position: center;
   padding: 3vh;
@@ -388,4 +388,19 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-thumb {
   background-color: #FBE1BB;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1367) {
+  #about {
+    height: 75vh;
+  }
+  #surfboard {
+    width: 75%;
+  }
+  #contact {
+    height: 120vh;
+  }
+  .blurred-box {
+    height: 60vh;
+  }
 }/*# sourceMappingURL=styles.css.map */
